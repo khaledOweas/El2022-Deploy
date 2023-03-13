@@ -4,3 +4,4 @@ publish/wwwroot/Upload/
 publish/wwwroot/
 publish/wwwroot/* 
 *.dmg 
+publish/mode.txt
