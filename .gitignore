@@ -1,7 +1,6 @@
-
-publish/Logs/Log\[2023-03-11\]_\[22h-23h\].dmg
 publish/Logs/
-publish/wwwroot/Upload/
-publish/wwwroot/Upload/User_89.png
+publish/Logs/*
+publish/wwwroot/Upload/ 
 publish/wwwroot/
-publish/wwwroot/Upload/User_89.png
+publish/wwwroot/* 
+*.dmg 
