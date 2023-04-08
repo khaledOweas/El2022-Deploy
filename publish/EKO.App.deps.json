@@ -2881,6 +2881,7 @@
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "EKO.Config": "1.0.0",
+          "EKO.CoreModel": "1.0.0",
           "EKO.Logger": "1.0.0",
           "EKO.Model": "1.0.0",
           "EKO.Util": "1.0.0"
@@ -2896,6 +2897,8 @@
       },
       "EKO.CoreModel/1.0.0": {
         "dependencies": {
+          "EKO.Model": "1.0.0",
+          "EKO.Util": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
@@ -2923,6 +2926,7 @@
       "EKO.Mapper/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
+          "EKO.CoreModel": "1.0.0",
           "EKO.Model": "1.0.0"
         },
         "runtime": {
@@ -2932,6 +2936,7 @@
       "EKO.Model/1.0.0": {
         "dependencies": {
           "EKO.Config": "1.0.0",
+          "EKO.Helper": "1.0.0",
           "EKO.Util": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
@@ -2951,6 +2956,7 @@
       "EKO.ServiceConfiguration/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
+          "EKO.CoreModel": "1.0.0",
           "EKO.Mapper": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.3",
           "Swashbuckle.AspNetCore": "6.5.0"
