@@ -5,3 +5,4 @@ publish/wwwroot/
 publish/wwwroot/* 
 *.dmg 
 publish/mode.txt
+publish/labid.txt
