@@ -307,6 +307,84 @@ body {
 }
 
 
+
+@keyframes bouncing {
+  0% {
+    top: 40%;
+  }
+
+  100% {
+    top: 30%;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.page-overlay-wrapper {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 1000000000 !important;
+  background: rgba(86, 87, 86, 0.5);
+}
+
+.page-overlay-wrapper .svg-spinner {
+  width: 20%;
+  height: 20%;
+  position: fixed;
+  top: 40%;
+  left: calc(50% - 20%);
+  z-index: 100000000 !important;
+  animation: bouncing 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+}
+
+.text-spinner {
+  position: fixed;
+  color: white;
+  top: 65%;
+  margin: 0 auto;
+  z-index: 100000000 !important;
+  font-size: 22px;
+}
+
+
+
+@keyframes bouncingSignalR {
+  0% {
+    bottom: 2%;
+  }
+
+  100% {
+    bottom: 5%;
+  }
+}
+
+.signalR-overlay-wrapper {
+
+  position: fixed;
+  z-index: 1000000000 !important;
+  background: rgba(86, 87, 86, 0.5);
+}
+
+.signalR-overlay-wrapper .svg-spinner {
+
+  position: fixed;
+  left: 1%;
+  bottom: 2%;
+  z-index: 100000000 !important;
+  animation: bouncingSignalR 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0.2s infinite alternate both;
+}
+
+
 @media (max-width: 480px) {
   .MobCard {
     color: yellow !important;
