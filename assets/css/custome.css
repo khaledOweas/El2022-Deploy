@@ -110,6 +110,7 @@ button {
   text-align: right !important;
   display: table-cell !important;
   padding: 3px !important;
+  border-bottom: 1px black solid;
 }
 
 .datatable-url {
