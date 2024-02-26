@@ -133,6 +133,7 @@ p-splitbutton {
   direction: ltr;
 }
 
+
 .p-datatable-header input {
   display: block;
   width: 100%;
@@ -461,7 +462,7 @@ th {
   width: calc(100% + -8px) !important;
 }
 
-.wid75  p-autoComplete {
+.wid75 p-autoComplete {
   width: 75%;
 }
 
@@ -487,5 +488,41 @@ th {
   .container-sm,
   .container {
     max-width: 100% !important;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .printable-content,
+  .printable-content * {
+    visibility: visible;
+  }
+
+  .page {
+    width: 210mm;
+    height: 250mm;
+    margin: 0px -70px auto;
+    margin-bottom: 30px;
+    padding: 50px;
+    box-sizing: border-box;
+    page-break-after: always;
+    background-color: white;
+
+
+    /* width: 210mm;
+    height: 250mm;
+    margin: 0px -70px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    page-break-after: always;
+    background-color: white;
+    position: relative; */
+  }
+
+  .data {
+    display: none;
   }
 }
