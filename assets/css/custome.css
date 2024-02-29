@@ -502,7 +502,7 @@ th {
   }
 
   .page {
-    width: 210mm;
+    width: 250mm;
     height: 250mm;
     margin: 0px -70px auto;
     margin-bottom: 30px;
@@ -510,7 +510,7 @@ th {
     box-sizing: border-box;
     page-break-after: always;
     background-color: white;
-
+    page-break-before: always;
 
     /* width: 210mm;
     height: 250mm;
@@ -525,4 +525,18 @@ th {
   .data {
     display: none;
   }
+
+  .no-print {
+    display: none;
+  }
+
+  .only-print {
+    display: block;
+  }
+
+  .form-control {
+    border: 0px solid #e4e6ef;
+    text-align: center;
+  }
+
 }
