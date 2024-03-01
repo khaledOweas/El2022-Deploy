@@ -466,6 +466,15 @@ th {
   width: 75%;
 }
 
+.test-input-title {
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 3px;
+  margin: 20px px;
+  cursor: pointer;
+}
+
 @media (max-width: 480px) {
   .MobCard {
     color: yellow !important;
@@ -512,14 +521,7 @@ th {
     background-color: white;
     page-break-before: always;
 
-    /* width: 210mm;
-    height: 250mm;
-    margin: 0px -70px auto;
-    padding: 50px;
-    box-sizing: border-box;
-    page-break-after: always;
-    background-color: white;
-    position: relative; */
+
   }
 
   .data {
