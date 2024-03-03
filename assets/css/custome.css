@@ -510,7 +510,7 @@ th {
     visibility: visible;
   }
 
-  .page {
+  /* .page {
     width: 250mm;
     height: 250mm;
     margin: 0px -70px auto;
@@ -522,6 +522,15 @@ th {
     page-break-before: always;
 
 
+  } */
+  .page {
+    border: none;
+    /* Hide the border when printing */
+    margin: 0;
+    /* Remove margin when printing */
+    box-shadow: none;
+    padding: 0px;
+    /* Remove any box shadow when printing */
   }
 
   .data {
