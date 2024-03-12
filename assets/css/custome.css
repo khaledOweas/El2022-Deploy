@@ -93,7 +93,7 @@ button {
 .p-datatable .p-datatable-thead>tr>th {
   text-align: right !important;
   font-family: "tajawal-black" !important;
-  background-color: #9b9bea !important;
+  background-color: #d2e1ff !important
 }
 
 .p-datatable .p-datatable-thead>tr :first-child {
@@ -473,6 +473,10 @@ th {
   padding: 3px;
   margin: 20px px;
   cursor: pointer;
+}
+
+.p-datatable-wrapper {
+  min-height: 250px;
 }
 
 @media (max-width: 480px) {
