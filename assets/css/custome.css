@@ -56,7 +56,7 @@ button {
 
 .btn-xs {
   margin: 0px 2px;
-  --bs-btn-padding-x: 19px;
+  --bs-btn-padding-x: 10px;
   --bs-btn-padding-y: 0px;
   --bs-btn-font-family: ;
   --bs-btn-font-size: 1.1rem;
@@ -93,18 +93,10 @@ button {
 .p-datatable .p-datatable-thead>tr>th {
   text-align: right !important;
   font-family: "tajawal-black" !important;
-  background-color: #d2e1ff !important
+  background-color: #d2e1ff !important;
+  padding: 4px 1px;
 }
 
-.p-datatable .p-datatable-thead>tr :first-child {
-
-  border-radius: 0px 9px 9px 0px;
-}
-
-.p-datatable .p-datatable-thead>tr :last-child {
-
-  border-radius: 9px 0px 0px 9px;
-}
 
 .p-datatable .p-datatable-tbody>tr>td {
   text-align: right !important;
@@ -229,6 +221,15 @@ p-pickList .pi-angle-double-left:before {
 .p-inputtext {
   font-family: "tajawal-black" !important;
   width: 100% !important;
+
+
+}
+
+.p-datatable  p-columnfilter .p-inputtext {
+  font-family: "tajawal-black" !important;
+  width: 100% !important;
+
+  padding: 5px 6px 6px 4px;
 }
 
 .pricelist-tests-table .table> :not(caption)>*>* {
@@ -477,6 +478,18 @@ th {
 
 .p-datatable-wrapper {
   min-height: 250px;
+}
+
+
+
+.header-fixed .header {
+
+  height: 45px !important;
+  border-radius: 0 0 50px 50px !important;
+}
+
+.header-fixed .wrapper {
+  padding-top: 20px;
 }
 
 @media (max-width: 480px) {
