@@ -151,7 +151,7 @@ p-splitbutton {
 
 .pi-chevron-left:before {
   content: "\e901";
-} 
+}
 
 .fc-primng {
   width: 100%;
@@ -166,7 +166,7 @@ p-splitbutton {
   border-radius: 0.475rem;
   box-shadow: inset 0 1px 2px rgb(0 0 0 / 8%);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-} 
+}
 
 .menu-arrow {
   transform: rotateZ(180deg) !important;
@@ -508,8 +508,22 @@ ul {
 }
 
 .p-tabview .p-tabview-panels {
-    padding: 0px !important
+  padding: 0px !important
 }
+
+.card>.card-header .card-toolbar {
+  margin: 0rem 0;
+}
+
+.card>.card-header {
+  min-height: 42px;
+  padding: 0 1rem;
+}
+
+.card>.card-body {
+  padding: 0.5rem 0.5rem; 
+}
+
 @media (max-width: 480px) {
   .MobCard {
     color: yellow !important;
