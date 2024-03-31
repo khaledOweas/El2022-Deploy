@@ -527,13 +527,20 @@ ul {
 .form-control {
   border: 1px solid #081240 !important;
 }
- 
 
 
+.p-datepicker-header {
+  direction: ltr;
+}
 
-/* .p-dropdown .p-dropdown-label {
-  border: 1px solid #081240;
-} */
+.p-tree-toggle {
+  direction: ltr;
+}
+
+.p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item.p-highlight {
+  color: #ffffff;
+  background: #0d3466;
+}
 
 @media (max-width: 480px) {
   .MobCard {
