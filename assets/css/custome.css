@@ -160,7 +160,7 @@ p-splitbutton {
   color: #181c32;
   background-color: #ffffff;
   background-clip: padding-box;
-  border: 1px solid #e4e6ef;
+  border: 1px solid #081240 !important;
   -webkit-appearance: none;
   appearance: none;
   border-radius: 0.475rem;
@@ -521,8 +521,19 @@ ul {
 }
 
 .card>.card-body {
-  padding: 0.5rem 0.5rem; 
+  padding: 0.5rem 0.5rem;
 }
+
+.form-control {
+  border: 1px solid #081240 !important;
+}
+ 
+
+
+
+/* .p-dropdown .p-dropdown-label {
+  border: 1px solid #081240;
+} */
 
 @media (max-width: 480px) {
   .MobCard {
