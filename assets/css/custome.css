@@ -542,6 +542,14 @@ ul {
   background: #0d3466;
 }
 
+.p-menubar {
+  padding: 0 !important;
+  background: transparent !important;
+
+  border: none !important;
+margin-top: 6px !important;
+}
+
 @media (max-width: 480px) {
   .MobCard {
     color: yellow !important;
