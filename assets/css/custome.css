@@ -547,7 +547,11 @@ ul {
   background: transparent !important;
 
   border: none !important;
-margin-top: 6px !important;
+  margin-top: 6px !important;
+}
+
+.p-datatable .p-datatable-tbody>tr.p-highlight {
+  background: #7cb6ff;
 }
 
 @media (max-width: 480px) {
