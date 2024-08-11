@@ -554,6 +554,43 @@ ul {
   background: #7cb6ff;
 }
 
+p-treetabletoggler>button {
+  transform: rotateY(180deg);
+}
+
+.custom-split-btn .p-splitbutton {
+  border-radius: 4px;
+  /* Adjust the border-radius to match other buttons */
+  font-size: 0.875rem;
+  /* Match the font size with other small buttons */
+  padding: 0.375rem 0.75rem;
+  /* Adjust padding to match the btn-sm class */
+}
+
+.custom-split-btn .p-splitbutton-defaultbutton,
+.custom-split-btn .p-splitbutton-menubutton {
+  border-radius: 4px;
+  /* Apply the same radius to both parts of the button */
+  font-size: 0.875rem;
+  /* Match the font size */
+  padding: 0.375rem 0.75rem;
+  /* Adjust padding */
+}
+
+.custom-split-btn .p-splitbutton-defaultbutton {
+  background-color: #17a2b8;
+  /* Match the primary button color */
+  color: white;
+  /* Ensure text is white */
+}
+
+.custom-split-btn .p-splitbutton-menubutton {
+  background-color: #17a2b8;
+  /* Match the primary button color */
+  color: white;
+  /* Ensure the icon color is white */
+}
+
 @media (max-width: 480px) {
   .MobCard {
     color: yellow !important;
