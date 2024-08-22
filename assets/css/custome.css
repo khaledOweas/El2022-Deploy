@@ -3,28 +3,6 @@
   src: url('./../fonts/Tajawal/Tajawal-Regular.ttf') format('truetype');
 }
 
-
-/*@font-face {
-   font-family: 'Arabic-Js1';
-   src: url('../fonts/Al Jazeera Arabic Bold.ttf') format('truetype');
-   src: url('../fonts/Al-Jazeera-Arabic-Bold.ttf') format('truetype');
-   src: url('../fonts/Al-Jazeera-Arabic-Bold.eot') format('embedded-opentype');
-   src: url('../fonts/Al-Jazeera-Arabic-Bold.woff') format('woff');
-}
-
-@font-face {
-   font-family: 'Arabic-Light';
-   src: url('../fonts/Al-Jazeera-Arabic-Light.eot') format('embedded-opentype');
-   src: url('../fonts/Al-Jazeera-Arabic-Light.ttf') format('truetype');
-}
-
-@font-face {
-   font-family: 'Arabic-Regular';
-   src: url('../fonts/Al-Jazeera-Arabic-Regular.eot') format('embedded-opentype');
-   src: url('../fonts/Al-Jazeera-Arabic-Regular.ttf') format('truetype');
-   src: url('../fonts/Al-Jazeera-Arabic-Regular.woff') format('woff');
-}
-*/
 *,
 .taj-font,
 body,
@@ -274,13 +252,10 @@ p-image .p-image-mask img {
   height: 100% !important;
 }
 
-
-
 .p-dropdown-panel .p-dropdown-header .p-dropdown-filter {
   padding-right: 1.75rem !important;
   margin-right: 0.25rem !important;
 }
-
 
 body {
   margin: 0;
